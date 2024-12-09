@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: 1px solid tomato; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+}
+
+button,
+input[type="submit"],
+label {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.section {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  width: 720px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid goldenrod;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#canvas {
+  display: block;
+  margin: 0 auto;
+
+  width: 1280px;
+  height: 720px;
+
+  background-color: black;
+}

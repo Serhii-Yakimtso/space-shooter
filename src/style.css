@@ -1,0 +1,16 @@
+@import "./css/reset.css";
+@import "./css/common.css";
+
+* {
+  outline: 1px solid red;
+}
+
+.main-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.greeting-text {
+  margin-bottom: 20px;
+  text-align: center;
+}
